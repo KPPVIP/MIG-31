@@ -1,0 +1,54 @@
+Mig-31BM Foxhound
+-----------------
+
+
+Mod features:
+-Detailed model
+-Openable doors and refueling arm
+-3 liveries
+-Working gauges
+-Working lights
+-Custom weapon settings
+-Bullet impact and glass shattering
+-LODs
+-Custom col mesh
+
+Doors:
+Left front door: Canopy (front)
+Left rear door: Canopy (rear)
+Trunk/Boot: Refueling arm
+
+Note: Cockpit is actually from a Mig-29 and slightly altered to fit this Mig-31. They are not exactly the same, but kinda close. So pft.
+
+
+Credits:
+Model:
+DCS: World
+Ace Combat: Assault Horizon
+
+Converted to GTA V and edited by SkylineGTRFreak
+-----------------------------------------------------------------------------
+Instructions:
+
+ADD-ON VERSION:
+
+1. Place the "mig31" folder into [Gamefolder]\update\X64\dlcpacks\
+2. With OpenIV, open [Game folder]\update\update.rpf\common\data\dlclist.xml and add this with Notepad++
+		<Item>dlcpacks:\mig31\</Item>
+
+3. Now you are done, you will need a trainer with "spawn by name" function (Enhanced Native Trainer for example) to spawn the vehicle type in:
+
+"mig31"
+
+Please note: By default I have disabled the custom weapon settings and models, because many people have problems with it (number of custom weapons is pretty limited, even with custom gameconfig). In case you want to try
+and enable the custom weapons, open up the extra folder in the ZIP download archive. Open up .../dlcpacks/mig31/dlc.rpf and replace the content.xml file with the custom one. Then open the data folder and replace the handling.meta 
+file with the custom one. Tada.
+
+As backup I have included the non-custom files as well.
+
+
+If the game crashes on startup, use a custom gameconfig.xml (you can find them at gta5-mods.com)
+
+
+I would advise using a Mods folder (more info at OpenIV) 
+and make a backup, I take no responsibility if any shit happens.
